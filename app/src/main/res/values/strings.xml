@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SouGov_ConstraintLayout</string>
+
+    <string name="logo_sou">SOU</string>
+    <string name="logo_gov_br">gov.br</string>
+    <string name="servidor">Servidor(a)</string>
+
+    <string name="vinculo">Vínculo (Órgão – Uorg – Matrícula)</string>
+    <string name="dados_pessoais">PF – UORG 12045 – 1845723</string>
+    <string name="cargo">Cargo</string>
+    <string name="nome_cargo">Perito Criminal Federal – Área: Informática Forense</string>
+
+    <string name="contracheque">Contracheque | Março 2026</string>
+    <string name="resumo_contracheque">Resumo do último contracheque</string>
+
+</resources>
