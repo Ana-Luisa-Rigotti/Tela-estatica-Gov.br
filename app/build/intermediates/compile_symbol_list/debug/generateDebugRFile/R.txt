@@ -18,6 +18,7 @@ int drawable menu_tres_linhas 0x0
 int drawable olho 0x0
 int drawable saida 0x0
 int drawable sino 0x0
+int drawable sombra 0x0
 int drawable switch_modo_escuro 0x0
 int id imageButton 0x0
 int id imageView 0x0
@@ -39,6 +40,7 @@ int id view2 0x0
 int id view21 0x0
 int id view22 0x0
 int id view23 0x0
+int id view33 0x0
 int id view4 0x0
 int layout activity_main 0x0
 int mipmap ic_launcher 0x0

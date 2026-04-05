@@ -3665,6 +3665,7 @@ int drawable notify_panel_notification_icon_bg 0x7f0700e7
 int drawable olho 0x7f0700f2
 int drawable saida 0x7f0700ed
 int drawable sino 0x7f0700ee
+int drawable sombra 0x7f0700f4
 int drawable switch_modo_escuro 0x7f0700ef
 int drawable test_level_drawable 0x7f0700e8
 int drawable tooltip_frame_dark 0x7f0700e9
@@ -4193,6 +4194,7 @@ int id view2 0x7f080215
 int id view21 0x7f08021b
 int id view22 0x7f08021c
 int id view23 0x7f08021d
+int id view33 0x7f080220
 int id view4 0x7f08021a
 int id view_offset_helper 0x7f0801fc
 int id view_transition 0x7f0801fd

@@ -156,7 +156,7 @@
 
         <View
             android:id="@+id/view4"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="350dp"
             android:background="@color/cor_fundo_contracheque"
             app:layout_constraintEnd_toEndOf="parent"
@@ -277,37 +277,20 @@
 
     </TextView>
 
-    <ImageView
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:layout_marginTop="16dp"
-        android:src="@drawable/olho"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.812"
-        app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/view2">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/olho"
 
-    </ImageView>
+            app:layout_constraintEnd_toEndOf="@+id/view2"
+            app:layout_constraintHorizontal_bias="0.986"
+            app:layout_constraintStart_toEndOf="@+id/textView5"
+            app:layout_constraintTop_toBottomOf="@+id/view2">
 
-        <View
-            android:id="@+id/view22"
-            android:layout_width="0dp"
-            android:layout_height="65dp"
+        </ImageView>
 
-            android:layout_marginBottom="60dp"
 
-            android:layout_marginEnd="4dp"
-            android:layout_marginStart="4dp"
-
-            android:background="@drawable/banner_arredondado"
-
-            android:backgroundTint="@color/white"
-            app:layout_constraintBottom_toBottomOf="@+id/view4"
-            app:layout_constraintEnd_toStartOf="@+id/view23"
-            app:layout_constraintStart_toEndOf="@+id/view21"
-            app:layout_constraintWidth_percent="0.33">
-
-        </View>
 
         <View
             android:id="@+id/view21"
@@ -316,9 +299,7 @@
 
             android:layout_marginBottom="60dp"
 
-            android:background="@drawable/banner_arredondado"
-
-            android:backgroundTint="@color/white"
+            android:background="@drawable/banner_com_contorno"
 
             app:layout_constraintBottom_toBottomOf="@+id/view4"
             app:layout_constraintEnd_toStartOf="@+id/view22"
@@ -329,24 +310,6 @@
             app:layout_constraintWidth_percent="0.3">
 
         </View>
-
-        <View
-            android:id="@+id/view23"
-            android:layout_width="0dp"
-            android:layout_height="65dp"
-
-            android:layout_marginBottom="60dp"
-
-            android:background="@drawable/banner_arredondado"
-
-            android:backgroundTint="@color/white"
-            app:layout_constraintBottom_toBottomOf="@+id/view4"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/view22"
-            app:layout_constraintWidth_percent="0.3">
-
-        </View>
-
 
         <TextView
             android:id="@+id/textView6"
@@ -388,19 +351,56 @@
 
         </ImageView>
 
+        <View
+            android:id="@+id/view22"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+
+            android:layout_marginBottom="60dp"
+
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
+
+            android:background="@drawable/banner_arredondado"
+
+            android:backgroundTint="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/view4"
+            app:layout_constraintEnd_toStartOf="@+id/view23"
+            app:layout_constraintStart_toEndOf="@+id/view21"
+            app:layout_constraintWidth_percent="0.33">
+
+        </View>
+
+        <View
+            android:id="@+id/view23"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+
+            android:layout_marginBottom="60dp"
+
+            android:background="@drawable/banner_arredondado"
+
+            android:backgroundTint="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/view4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/view22"
+            app:layout_constraintWidth_percent="0.3">
+
+        </View>
 
         <!--Linhas-->
         <!--Verde-->
         <View
-        android:layout_width="5dp"
-        android:layout_height="0dp"
-        android:background="@drawable/linha_colorida"
-        android:backgroundTint="@color/linha_verde"
-        app:layout_constraintBottom_toBottomOf="@+id/view21"
-        app:layout_constraintStart_toStartOf="@+id/view21"
-        app:layout_constraintTop_toTopOf="@+id/view21">
+            android:id="@+id/view33"
+            android:layout_width="5dp"
+            android:layout_height="0dp"
+            android:background="@drawable/linha_colorida"
+            android:backgroundTint="@color/linha_verde"
+            app:layout_constraintBottom_toBottomOf="@+id/view21"
+            app:layout_constraintStart_toStartOf="@+id/view21"
+            app:layout_constraintTop_toTopOf="@+id/view21">
 
-    </View>
+        </View>
 
     <!--Vermelha-->
     <View

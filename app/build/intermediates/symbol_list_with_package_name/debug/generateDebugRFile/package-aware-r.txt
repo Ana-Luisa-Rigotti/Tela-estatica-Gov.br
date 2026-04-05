@@ -19,6 +19,7 @@ drawable menu_tres_linhas
 drawable olho
 drawable saida
 drawable sino
+drawable sombra
 drawable switch_modo_escuro
 id imageButton
 id imageView
@@ -40,6 +41,7 @@ id view2
 id view21
 id view22
 id view23
+id view33
 id view4
 layout activity_main
 mipmap ic_launcher
