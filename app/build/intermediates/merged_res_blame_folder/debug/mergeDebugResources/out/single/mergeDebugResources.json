@@ -48,6 +48,10 @@
         "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\xml\\backup_rules.xml"
     },
     {
+        "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_mais_verde.png.flat",
+        "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\mais_verde.png"
+    },
+    {
         "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_cadeado.png.flat",
         "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\cadeado.png"
     },

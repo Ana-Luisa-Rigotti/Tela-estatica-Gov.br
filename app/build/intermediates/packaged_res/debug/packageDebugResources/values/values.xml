@@ -5,9 +5,12 @@
     <color name="cor_barra_topo">#0F50B4</color>
     <color name="cor_fundo_contracheque">#F5F5F5</color>
     <color name="cor_padrao_textos">#3f3f3f</color>
+    <color name="linha_azul">#1557C4</color>
     <color name="linha_verde">#0B6B3A</color>
+    <color name="linha_vermelha">#9B3200</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">SouGov_ConstraintLayout</string>
+    <string name="bruto">Bruto</string>
     <string name="cargo">Cargo</string>
     <string name="contracheque">Contracheque | Março 2026</string>
     <string name="dados_pessoais">PF – UORG 12045 – 1845723</string>
@@ -16,6 +19,7 @@
     <string name="nome_cargo">Perito Criminal Federal – Área: Informática Forense</string>
     <string name="resumo_contracheque">Resumo do último contracheque</string>
     <string name="servidor">Servidor(a)</string>
+    <string name="valor_numerico_bruto">30.175,29</string>
     <string name="vinculo">Vínculo (Órgão – Uorg – Matrícula)</string>
     <style name="Base.Theme.SouGov_ConstraintLayout" parent="Theme.Material3.DayNight.NoActionBar">
         

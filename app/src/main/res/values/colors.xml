@@ -8,6 +8,8 @@
     <color name="cor_banner">#EBEBF5</color>
 
     <color name="linha_verde">#0B6B3A</color>
+    <color name="linha_vermelha">#9B3200</color>
+    <color name="linha_azul">#1557C4</color>
     
     <color name="cor_fundo_contracheque">#F5F5F5</color>
 </resources>

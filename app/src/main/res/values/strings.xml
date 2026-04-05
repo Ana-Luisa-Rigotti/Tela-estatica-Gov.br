@@ -12,5 +12,8 @@
 
     <string name="contracheque">Contracheque | Março 2026</string>
     <string name="resumo_contracheque">Resumo do último contracheque</string>
+    
+    <string name="bruto">Bruto</string>
+    <string name="valor_numerico_bruto">30.175,29</string>
 
 </resources>
