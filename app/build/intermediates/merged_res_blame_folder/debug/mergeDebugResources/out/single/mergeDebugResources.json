@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_fundo_contracheque.xml.flat",
+        "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\fundo_contracheque.xml"
+    },
+    {
         "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\mipmap-anydpi_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\mipmap-anydpi\\ic_launcher_round.xml"
     },
@@ -8,12 +12,16 @@
         "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\sino.png"
     },
     {
+        "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_linha_colorida.xml.flat",
+        "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\linha_colorida.xml"
+    },
+    {
         "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_linha_colorida.xml.flat",
-        "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\linha_colorida.xml"
+        "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_fundo_solitacoes.xml.flat",
+        "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\fundo_solitacoes.xml"
     },
     {
         "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -22,6 +30,14 @@
     {
         "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\mipmap-anydpi_ic_launcher.xml.flat",
         "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_banner_com_contorno.xml.flat",
+        "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\banner_com_contorno.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_seta_direita.png.flat",
+        "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\seta_direita.png"
     },
     {
         "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_ic_launcher_foreground.xml.flat",
@@ -52,6 +68,10 @@
         "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\mais_verde.png"
     },
     {
+        "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_imagem_arredondada.xml.flat",
+        "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\imagem_arredondada.xml"
+    },
+    {
         "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_cadeado.png.flat",
         "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\cadeado.png"
     },
@@ -72,6 +92,10 @@
         "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_imagem_simulador_aposentadoria.png.flat",
+        "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\imagem_simulador_aposentadoria.png"
+    },
+    {
         "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
@@ -82,6 +106,10 @@
     {
         "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_dinheiro_contracheque.png.flat",
+        "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\dinheiro_contracheque.png"
     },
     {
         "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_sombra.xml.flat",
@@ -96,8 +124,20 @@
         "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\banner_arredondado.xml"
     },
     {
+        "merged": "com.example.sougov_constraintlayout.app-debug-35:/drawable_circulo_seta.xml.flat",
+        "source": "com.example.sougov_constraintlayout.app-main-37:/drawable/circulo_seta.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_circulo_seta.xml.flat",
+        "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\circulo_seta.xml"
+    },
+    {
         "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_forma_oval.xml.flat",
         "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\forma_oval.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_certo_azul.png.flat",
+        "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\certo_azul.png"
     },
     {
         "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -108,11 +148,23 @@
         "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.sougov_constraintlayout.app-debug-35:/drawable_sombra.xml.flat",
-        "source": "com.example.sougov_constraintlayout.app-main-37:/drawable/sombra.xml"
+        "merged": "com.example.sougov_constraintlayout.app-debug-35:/layout_activity_main.xml.flat",
+        "source": "com.example.sougov_constraintlayout.app-main-37:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_negativo_vermelho.png.flat",
+        "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\negativo_vermelho.png"
+    },
+    {
+        "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_seta_esquerda.png.flat",
+        "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\seta_esquerda.png"
+    },
+    {
+        "merged": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-debug-35:\\drawable_contrato_declaracoes.png.flat",
+        "source": "C:\\Users\\Ana\\.gradle\\daemon\\9.3.1\\com.example.sougov_constraintlayout.app-main-37:\\drawable\\contrato_declaracoes.png"
     }
 ]

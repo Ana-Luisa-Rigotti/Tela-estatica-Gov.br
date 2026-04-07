@@ -2,7 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="cor_padrao_textos">#3f3f3f</color>
+    <color name="cor_padrao_textos">#5D5D5D</color>
 
     <color name="cor_barra_topo">#0F50B4</color>
     <color name="cor_banner">#EBEBF5</color>
@@ -12,4 +12,5 @@
     <color name="linha_azul">#1557C4</color>
     
     <color name="cor_fundo_contracheque">#F5F5F5</color>
+    <color name="seta_contracheque">#002D64</color>
 </resources>

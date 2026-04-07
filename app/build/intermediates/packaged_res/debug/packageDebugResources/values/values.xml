@@ -4,22 +4,36 @@
     <color name="cor_banner">#EBEBF5</color>
     <color name="cor_barra_topo">#0F50B4</color>
     <color name="cor_fundo_contracheque">#F5F5F5</color>
-    <color name="cor_padrao_textos">#3f3f3f</color>
+    <color name="cor_padrao_textos">#5D5D5D</color>
     <color name="linha_azul">#1557C4</color>
     <color name="linha_verde">#0B6B3A</color>
     <color name="linha_vermelha">#9B3200</color>
+    <color name="seta_contracheque">#002D64</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">SouGov_ConstraintLayout</string>
+    <string name="autoatendimento">Autoatendimento</string>
     <string name="bruto">Bruto</string>
     <string name="cargo">Cargo</string>
+    <string name="consulta_contracheque">Consulta\nContracheque</string>
     <string name="contracheque">Contracheque | Março 2026</string>
     <string name="dados_pessoais">PF – UORG 12045 – 1845723</string>
+    <string name="declaracoes_automaticas">Declarações\nAutomáticas</string>
+    <string name="descontos">Descontos</string>
+    <string name="descricao_autoatendimento">Aqui você tem a informação a hora que quiser!</string>
+    <string name="descricao_solicitacoes">Envie requerimentos para sua Unidade Gestora.</string>
+    <string name="liquido">Líquido</string>
     <string name="logo_gov_br">gov.br</string>
     <string name="logo_sou">SOU</string>
+    <string name="meus_contracheques">Meus Contracheques</string>
     <string name="nome_cargo">Perito Criminal Federal – Área: Informática Forense</string>
     <string name="resumo_contracheque">Resumo do último contracheque</string>
     <string name="servidor">Servidor(a)</string>
+    <string name="seta">›</string>
+    <string name="simulador_aposetadoria">Simulador de\nAposentadoria</string>
+    <string name="solicitacoes">Solicitações</string>
     <string name="valor_numerico_bruto">30.175,29</string>
+    <string name="valor_numerico_descontos">9.570,44</string>
+    <string name="valor_numerico_liquido">20.604,85</string>
     <string name="vinculo">Vínculo (Órgão – Uorg – Matrícula)</string>
     <style name="Base.Theme.SouGov_ConstraintLayout" parent="Theme.Material3.DayNight.NoActionBar">
         
