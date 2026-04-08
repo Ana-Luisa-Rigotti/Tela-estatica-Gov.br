@@ -5,7 +5,8 @@
     android:fillViewport="true"
     android:scrollbars="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/main"
@@ -13,6 +14,8 @@
         android:layout_height="wrap_content"
         tools:context=".MainActivity">
 
+
+    <!--Barra superior-->
     <View
         android:id="@+id/view"
         android:layout_width="0dp"
@@ -95,6 +98,24 @@
 
     </TextView>
 
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="24dp"
+            android:background="@null"
+
+            android:scaleType="fitCenter"
+            android:src="@drawable/switch_modo_escuro"
+            app:layout_constraintEnd_toStartOf="@+id/imageView27"
+            app:layout_constraintHorizontal_bias="0.97"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toEndOf="@+id/view"
+            app:layout_constraintStart_toStartOf="@id/view"
+            app:layout_constraintTop_toTopOf="@id/view">
+
+        </ImageView>
+
     <ImageView
         android:id="@+id/imageView27"
         android:layout_width="32dp"
@@ -109,6 +130,20 @@
 
     </ImageView>
 
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="24dp"
+
+            android:src="@drawable/cadeado"
+            app:layout_constraintEnd_toStartOf="@+id/imageView28"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageView27"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
     <ImageView
         android:id="@+id/imageView28"
         android:layout_width="32dp"
@@ -122,38 +157,7 @@
 
     </ImageView>
 
-    <ImageView
-        android:id="@+id/imageView32"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="24dp"
-        android:background="@null"
-
-        android:scaleType="fitCenter"
-        android:src="@drawable/switch_modo_escuro"
-        app:layout_constraintEnd_toStartOf="@+id/imageView27"
-        app:layout_constraintHorizontal_bias="0.97"
-        app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toEndOf="@+id/view"
-        app:layout_constraintStart_toStartOf="@id/view"
-        app:layout_constraintTop_toTopOf="@id/view">
-
-    </ImageView>
-
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="24dp"
-
-        android:src="@drawable/cadeado"
-        app:layout_constraintEnd_toStartOf="@+id/imageView28"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView27"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </ImageView>
-
+        <!--Contracheque-->
         <View
             android:id="@+id/view4"
             android:layout_width="0dp"
@@ -167,6 +171,7 @@
 
         </View>
 
+        <!--Banner dados usuário-->
         <View
         android:id="@+id/view2"
         android:layout_width="0dp"
@@ -490,6 +495,44 @@
 
         </TextView>
 
+        <!--Linhas-->
+        <!--Verde-->
+        <View
+            android:id="@+id/view33"
+            android:layout_width="5dp"
+            android:layout_height="0dp"
+            android:background="@drawable/linha_colorida"
+            android:backgroundTint="@color/linha_verde"
+            app:layout_constraintBottom_toBottomOf="@+id/view21"
+            app:layout_constraintStart_toStartOf="@+id/view21"
+            app:layout_constraintTop_toTopOf="@+id/view21">
+
+        </View>
+
+        <!--Vermelha-->
+        <View
+            android:layout_width="5dp"
+            android:layout_height="0dp"
+            android:background="@drawable/linha_colorida"
+            android:backgroundTint="@color/linha_vermelha"
+            app:layout_constraintBottom_toBottomOf="@+id/view22"
+            app:layout_constraintStart_toStartOf="@+id/view22"
+            app:layout_constraintTop_toTopOf="@+id/view22">
+
+        </View>
+
+        <!--Azul-->
+        <View
+            android:layout_width="5dp"
+            android:layout_height="0dp"
+            android:background="@drawable/linha_colorida"
+            android:backgroundTint="@color/linha_azul"
+            app:layout_constraintBottom_toBottomOf="@+id/view23"
+            app:layout_constraintStart_toStartOf="@+id/view23"
+            app:layout_constraintTop_toTopOf="@+id/view23">
+
+        </View>
+
         <!--Auto atendimento-->
 
         <View
@@ -681,6 +724,59 @@
             app:layout_constraintHorizontal_bias="0.5">
 
         </TextView>
+
+        <!--Setas-->
+        <!--Esquerda-->
+        <View
+            android:id="@+id/view8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="3dp"
+            android:background="@drawable/circulo_seta"
+            app:layout_constraintBottom_toBottomOf="@+id/view3"
+            app:layout_constraintStart_toStartOf="@+id/view5"
+            app:layout_constraintTop_toTopOf="@+id/view3"
+            app:layout_constraintVertical_bias="0.45">
+
+        </View>
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/seta_esquerda"
+            app:layout_constraintBottom_toBottomOf="@+id/view8"
+            app:layout_constraintEnd_toEndOf="@+id/view8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/view8"
+            app:layout_constraintHorizontal_bias="0.5">
+
+        </ImageView>
+
+        <!--Direita-->
+        <View
+            android:id="@+id/view9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/circulo_seta"
+            app:layout_constraintVertical_bias="0.45"
+            app:layout_constraintBottom_toBottomOf="@+id/view7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/view7">
+
+        </View>
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/seta_direita"
+            app:layout_constraintBottom_toBottomOf="@+id/view9"
+            app:layout_constraintEnd_toEndOf="@+id/view9"
+            app:layout_constraintStart_toStartOf="@+id/view9"
+            app:layout_constraintTop_toTopOf="@+id/view9"
+            app:layout_constraintHorizontal_bias="0.6">
+
+        </ImageView>
 
 
         <!--Solicitacoes-->
@@ -890,6 +986,24 @@
 
         </View>
 
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_marginTop="16dp"
+
+            android:src="@drawable/inicio"
+            app:layout_constraintEnd_toStartOf="@+id/imageView8"
+            app:layout_constraintHorizontal_bias="0.5"
+
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view14">
+
+        </ImageView>
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -905,6 +1019,24 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView13">
 
         </TextView>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/solicitacoes"
+
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+
+            app:layout_constraintEnd_toStartOf="@+id/imageView9"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageView13"
+            app:layout_constraintTop_toBottomOf="@+id/view14">
+
+        </ImageView>
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -955,23 +1087,6 @@
         </TextView>
 
         <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="42dp"
-            android:layout_height="42dp"
-            android:layout_marginTop="16dp"
-            android:src="@drawable/solicitacoes"
-
-            android:layout_marginStart="15dp"
-            android:layout_marginEnd="15dp"
-
-            app:layout_constraintEnd_toStartOf="@+id/imageView9"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/imageView13"
-            app:layout_constraintTop_toBottomOf="@+id/view14">
-
-        </ImageView>
-
-        <ImageView
             android:id="@+id/imageView10"
             android:layout_width="41dp"
             android:layout_height="41dp"
@@ -1000,114 +1115,7 @@
 
         </TextView>
 
-        <ImageView
-            android:id="@+id/imageView13"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
 
-            android:layout_marginTop="16dp"
-
-
-            android:src="@drawable/inicio"
-            app:layout_constraintEnd_toStartOf="@+id/imageView8"
-            app:layout_constraintHorizontal_bias="0.5"
-
-            app:layout_constraintHorizontal_chainStyle="spread"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/view14">
-
-        </ImageView>
-
-        <!--Setas-->
-        <!--Esquerda-->
-        <View
-            android:id="@+id/view8"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="3dp"
-            android:background="@drawable/circulo_seta"
-            app:layout_constraintBottom_toBottomOf="@+id/view3"
-            app:layout_constraintStart_toStartOf="@+id/view5"
-            app:layout_constraintTop_toTopOf="@+id/view3"
-            app:layout_constraintVertical_bias="0.45">
-
-        </View>
-
-        <ImageView
-            android:layout_width="22dp"
-            android:layout_height="22dp"
-            android:src="@drawable/seta_esquerda"
-            app:layout_constraintBottom_toBottomOf="@+id/view8"
-            app:layout_constraintEnd_toEndOf="@+id/view8"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/view8"
-            app:layout_constraintHorizontal_bias="0.5">
-
-        </ImageView>
-
-        <!--Direita-->
-        <View
-            android:id="@+id/view9"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginEnd="3dp"
-            android:background="@drawable/circulo_seta"
-            app:layout_constraintVertical_bias="0.45"
-            app:layout_constraintBottom_toBottomOf="@+id/view7"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/view7">
-
-        </View>
-
-        <ImageView
-            android:layout_width="22dp"
-            android:layout_height="22dp"
-            android:src="@drawable/seta_direita"
-            app:layout_constraintBottom_toBottomOf="@+id/view9"
-            app:layout_constraintEnd_toEndOf="@+id/view9"
-            app:layout_constraintStart_toStartOf="@+id/view9"
-            app:layout_constraintTop_toTopOf="@+id/view9"
-            app:layout_constraintHorizontal_bias="0.6">
-
-        </ImageView>
-
-        <!--Linhas-->
-        <!--Verde-->
-        <View
-            android:id="@+id/view33"
-            android:layout_width="5dp"
-            android:layout_height="0dp"
-            android:background="@drawable/linha_colorida"
-            android:backgroundTint="@color/linha_verde"
-            app:layout_constraintBottom_toBottomOf="@+id/view21"
-            app:layout_constraintStart_toStartOf="@+id/view21"
-            app:layout_constraintTop_toTopOf="@+id/view21">
-
-        </View>
-
-    <!--Vermelha-->
-    <View
-        android:layout_width="5dp"
-        android:layout_height="0dp"
-        android:background="@drawable/linha_colorida"
-        android:backgroundTint="@color/linha_vermelha"
-        app:layout_constraintBottom_toBottomOf="@+id/view22"
-        app:layout_constraintStart_toStartOf="@+id/view22"
-        app:layout_constraintTop_toTopOf="@+id/view22">
-
-    </View>
-
-    <!--Azul-->
-    <View
-        android:layout_width="5dp"
-        android:layout_height="0dp"
-        android:background="@drawable/linha_colorida"
-        android:backgroundTint="@color/linha_azul"
-        app:layout_constraintBottom_toBottomOf="@+id/view23"
-        app:layout_constraintStart_toStartOf="@+id/view23"
-        app:layout_constraintTop_toTopOf="@+id/view23">
-
-    </View>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
