@@ -34,4 +34,12 @@
     <string name="solicitacoes">Solicitações</string>
     <string name="descricao_solicitacoes">Envie requerimentos para sua Unidade Gestora.</string>
 
+    <string name="saude_suplementar">Saúde\nSuplementar</string>
+    <string name="cadastro_dependente">Cadastro de\nDependente</string>
+    <string name="moradia">Moradia</string>
+
+    <string name="inicio">Início</string>
+    <string name="assistente">Assistente</string>
+    <string name="perfil">Meu Perfil</string>
+
 </resources>

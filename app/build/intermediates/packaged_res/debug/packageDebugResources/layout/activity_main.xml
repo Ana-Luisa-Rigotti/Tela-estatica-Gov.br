@@ -555,12 +555,14 @@
             android:layout_width="0dp"
             android:layout_height="40dp"
 
-            android:adjustViewBounds="true"
             android:background="@drawable/imagem_arredondada"
-            android:clipToOutline="true"
 
+            android:clipToOutline="true"
             android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+
             android:src="@drawable/dinheiro_contracheque"
+
             app:layout_constraintEnd_toEndOf="@+id/view3"
             app:layout_constraintHorizontal_bias="0.45"
             app:layout_constraintStart_toStartOf="@+id/view3"
@@ -681,9 +683,10 @@
         </TextView>
 
 
-        <!--Solicitações-->
+        <!--Solicitacoes-->
 
         <View
+            android:id="@+id/view11"
             android:layout_width="0dp"
             android:layout_height="73dp"
             android:background="@drawable/fundo_solitacoes"
@@ -721,6 +724,302 @@
 
         </TextView>
 
+        <!--Solicitacoes segunda parte-->
+        <View
+            android:id="@+id/view14"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view11">
+
+        </View>
+
+        <View
+            android:id="@+id/view13"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="20dp"
+
+            android:background="@drawable/banner_contorno_total"
+
+            app:layout_constraintEnd_toStartOf="@+id/view10"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view11"
+            app:layout_constraintWidth_percent="0.29">
+
+        </View>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/hospital"
+            app:layout_constraintEnd_toEndOf="@+id/view13"
+
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/view13"
+            app:layout_constraintTop_toTopOf="@+id/view13">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/saude_suplementar"
+            android:textColor="@color/linha_azul"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/view13"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/view13"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+
+            android:layout_marginTop="3dp">
+
+        </TextView>
+
+        <View
+            android:id="@+id/view10"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/banner_contorno_total"
+
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+
+            app:layout_constraintEnd_toStartOf="@+id/view12"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/view13"
+            app:layout_constraintTop_toBottomOf="@+id/view11"
+            app:layout_constraintWidth_percent="0.29">
+
+        </View>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/cadastro_img"
+            app:layout_constraintEnd_toEndOf="@+id/view10"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/view10"
+            app:layout_constraintTop_toTopOf="@+id/view10">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+
+            android:text="@string/cadastro_dependente"
+            android:textColor="@color/linha_azul"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="@+id/view10"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/view10"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6">
+
+        </TextView>
+
+        <View
+            android:id="@+id/view12"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/banner_contorno_total"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/view10"
+            app:layout_constraintTop_toBottomOf="@+id/view11"
+            app:layout_constraintWidth_percent="0.29">
+
+        </View>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="4dp"
+
+            android:src="@drawable/casa"
+            app:layout_constraintEnd_toEndOf="@+id/view12"
+            app:layout_constraintStart_toStartOf="@+id/view12"
+            app:layout_constraintTop_toTopOf="@+id/view12">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/moradia"
+            android:textColor="@color/linha_azul"
+            android:textSize="12sp"
+            android:layout_marginTop="3dp"
+            app:layout_constraintHorizontal_bias="0.5"
+
+            app:layout_constraintEnd_toEndOf="@+id/view12"
+            app:layout_constraintStart_toStartOf="@+id/view12"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7">
+
+        </TextView>
+
+        <!--Menu inferior-->
+
+        <View
+            android:id="@+id/view15"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:background="@drawable/menu_inferior"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view14"
+            app:layout_constraintVertical_bias="0.0">
+
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inicio"
+            android:textColor="@color/cor_incio"
+            android:textSize="12sp"
+
+            app:layout_constraintHorizontal_bias="0.6"
+            android:layout_marginTop="1dp"
+
+            app:layout_constraintEnd_toEndOf="@+id/imageView13"
+            app:layout_constraintStart_toStartOf="@+id/imageView13"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/solicitacoes"
+            android:textColor="@color/cor_padrao_textos"
+            android:textSize="12sp"
+            android:layout_marginTop="1dp"
+            app:layout_constraintHorizontal_bias="0.5"
+
+            app:layout_constraintEnd_toEndOf="@+id/imageView8"
+            app:layout_constraintStart_toStartOf="@+id/imageView8"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="49dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/assistente"
+
+            android:layout_marginEnd="15dp"
+
+            app:layout_constraintEnd_toStartOf="@+id/imageView10"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageView8"
+            app:layout_constraintTop_toBottomOf="@+id/view14">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/assistente"
+            android:textColor="@color/cor_padrao_textos"
+            android:textSize="12sp"
+            android:includeFontPadding="false"
+            app:flow_horizontalBias="0.5"
+            android:layout_marginTop="-1dp"
+
+            app:layout_constraintEnd_toEndOf="@+id/imageView9"
+            app:layout_constraintHorizontal_bias="0.375"
+            app:layout_constraintStart_toStartOf="@+id/imageView9"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/solicitacoes"
+
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+
+            app:layout_constraintEnd_toStartOf="@+id/imageView9"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageView13"
+            app:layout_constraintTop_toBottomOf="@+id/view14">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/perfil"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageView9"
+            app:layout_constraintTop_toBottomOf="@+id/view14">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/perfil"
+            android:textColor="@color/cor_padrao_textos"
+            android:textSize="12sp"
+            android:layout_marginTop="1dp"
+            app:layout_constraintHorizontal_bias="0.4"
+
+            app:layout_constraintEnd_toEndOf="@+id/imageView10"
+            app:layout_constraintStart_toStartOf="@+id/imageView10"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_marginTop="16dp"
+
+
+            android:src="@drawable/inicio"
+            app:layout_constraintEnd_toStartOf="@+id/imageView8"
+            app:layout_constraintHorizontal_bias="0.5"
+
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view14">
+
+        </ImageView>
+
+        <!--Setas-->
+        <!--Esquerda-->
         <View
             android:id="@+id/view8"
             android:layout_width="40dp"
@@ -746,10 +1045,7 @@
 
         </ImageView>
 
-
-        <!--Linhas-->
-        <!--Verde-->
-
+        <!--Direita-->
         <View
             android:id="@+id/view9"
             android:layout_width="40dp"
@@ -775,6 +1071,8 @@
 
         </ImageView>
 
+        <!--Linhas-->
+        <!--Verde-->
         <View
             android:id="@+id/view33"
             android:layout_width="5dp"

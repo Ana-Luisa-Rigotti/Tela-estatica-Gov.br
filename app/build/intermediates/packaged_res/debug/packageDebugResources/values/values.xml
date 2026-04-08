@@ -3,7 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="cor_banner">#EBEBF5</color>
     <color name="cor_barra_topo">#0F50B4</color>
-    <color name="cor_fundo_contracheque">#F5F5F5</color>
+    <color name="cor_fundos">#F5F5F5</color>
+    <color name="cor_incio">#1E3264</color>
     <color name="cor_padrao_textos">#5D5D5D</color>
     <color name="linha_azul">#1557C4</color>
     <color name="linha_verde">#0B6B3A</color>
@@ -11,8 +12,10 @@
     <color name="seta_contracheque">#002D64</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">SouGov_ConstraintLayout</string>
+    <string name="assistente">Assistente</string>
     <string name="autoatendimento">Autoatendimento</string>
     <string name="bruto">Bruto</string>
+    <string name="cadastro_dependente">Cadastro de\nDependente</string>
     <string name="cargo">Cargo</string>
     <string name="consulta_contracheque">Consulta\nContracheque</string>
     <string name="contracheque">Contracheque | Março 2026</string>
@@ -21,12 +24,16 @@
     <string name="descontos">Descontos</string>
     <string name="descricao_autoatendimento">Aqui você tem a informação a hora que quiser!</string>
     <string name="descricao_solicitacoes">Envie requerimentos para sua Unidade Gestora.</string>
+    <string name="inicio">Início</string>
     <string name="liquido">Líquido</string>
     <string name="logo_gov_br">gov.br</string>
     <string name="logo_sou">SOU</string>
     <string name="meus_contracheques">Meus Contracheques</string>
+    <string name="moradia">Moradia</string>
     <string name="nome_cargo">Perito Criminal Federal – Área: Informática Forense</string>
+    <string name="perfil">Meu Perfil</string>
     <string name="resumo_contracheque">Resumo do último contracheque</string>
+    <string name="saude_suplementar">Saúde\nSuplementar</string>
     <string name="servidor">Servidor(a)</string>
     <string name="seta">›</string>
     <string name="simulador_aposetadoria">Simulador de\nAposentadoria</string>

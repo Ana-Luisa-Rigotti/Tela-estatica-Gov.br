@@ -12,7 +12,7 @@
         android:top="1dp"
         android:bottom="1dp">
         <shape android:shape="oval">
-            <solid android:color="#89FFFFFF"/>
+            <solid android:color="#70FFFFFF"/>
             <corners android:radius="5dp"/>
         </shape>
     </item>
