@@ -7,6 +7,7 @@ int color cor_padrao_textos 0x0
 int color linha_azul 0x0
 int color linha_verde 0x0
 int color linha_vermelha 0x0
+int color novo 0x0
 int color seta_contracheque 0x0
 int color white 0x0
 int drawable assistente 0x0
@@ -21,6 +22,7 @@ int drawable circulo_seta 0x0
 int drawable contrato_declaracoes 0x0
 int drawable dinheiro_contracheque 0x0
 int drawable forma_oval 0x0
+int drawable forma_oval_novo 0x0
 int drawable fundo_contracheque 0x0
 int drawable fundo_solitacoes 0x0
 int drawable hospital 0x0
@@ -79,6 +81,8 @@ int id view12 0x0
 int id view13 0x0
 int id view14 0x0
 int id view15 0x0
+int id view16 0x0
+int id view17 0x0
 int id view2 0x0
 int id view21 0x0
 int id view22 0x0
@@ -114,6 +118,7 @@ int string logo_sou 0x0
 int string meus_contracheques 0x0
 int string moradia 0x0
 int string nome_cargo 0x0
+int string novo 0x0
 int string perfil 0x0
 int string resumo_contracheque 0x0
 int string saude_suplementar 0x0

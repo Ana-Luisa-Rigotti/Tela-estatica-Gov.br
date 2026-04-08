@@ -9,6 +9,7 @@
     <color name="linha_azul">#1557C4</color>
     <color name="linha_verde">#0B6B3A</color>
     <color name="linha_vermelha">#9B3200</color>
+    <color name="novo">#FFC800</color>
     <color name="seta_contracheque">#002D64</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">SouGov_ConstraintLayout</string>
@@ -31,6 +32,7 @@
     <string name="meus_contracheques">Meus Contracheques</string>
     <string name="moradia">Moradia</string>
     <string name="nome_cargo">Perito Criminal Federal – Área: Informática Forense</string>
+    <string name="novo">novo</string>
     <string name="perfil">Meu Perfil</string>
     <string name="resumo_contracheque">Resumo do último contracheque</string>
     <string name="saude_suplementar">Saúde\nSuplementar</string>

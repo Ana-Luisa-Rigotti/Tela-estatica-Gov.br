@@ -2413,6 +2413,7 @@ int color mtrl_textinput_focused_box_stroke_color 0x7f05039e
 int color mtrl_textinput_hovered_box_stroke_color 0x7f05039f
 int color notification_action_color_filter 0x7f0503a0
 int color notification_icon_bg_color 0x7f0503a1
+int color novo 0x7f0503bc
 int color primary_dark_material_dark 0x7f0503a2
 int color primary_dark_material_light 0x7f0503a3
 int color primary_material_dark 0x7f0503a4
@@ -3574,6 +3575,7 @@ int drawable design_password_eye 0x7f070089
 int drawable design_snackbar_background 0x7f07008a
 int drawable dinheiro_contracheque 0x7f0700f8
 int drawable forma_oval 0x7f07008b
+int drawable forma_oval_novo 0x7f070109
 int drawable fundo_contracheque 0x7f0700f7
 int drawable fundo_solitacoes 0x7f0700fd
 int drawable hospital 0x7f070102
@@ -4233,6 +4235,8 @@ int id view12 0x7f080234
 int id view13 0x7f080235
 int id view14 0x7f080236
 int id view15 0x7f080237
+int id view16 0x7f08023c
+int id view17 0x7f08023d
 int id view2 0x7f08020d
 int id view21 0x7f08020e
 int id view22 0x7f08020f
@@ -4646,6 +4650,7 @@ int string mtrl_timepicker_confirm 0x7f0f00a7
 int string nav_rail_collapsed_a11y_label 0x7f0f00a8
 int string nav_rail_expanded_a11y_label 0x7f0f00a9
 int string nome_cargo 0x7f0f00aa
+int string novo 0x7f0f00cb
 int string password_toggle_content_description 0x7f0f00ab
 int string path_password_eye 0x7f0f00ac
 int string path_password_eye_mask_strike_through 0x7f0f00ad

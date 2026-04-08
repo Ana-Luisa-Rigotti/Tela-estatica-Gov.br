@@ -8,6 +8,7 @@ color cor_padrao_textos
 color linha_azul
 color linha_verde
 color linha_vermelha
+color novo
 color seta_contracheque
 color white
 drawable assistente
@@ -22,6 +23,7 @@ drawable circulo_seta
 drawable contrato_declaracoes
 drawable dinheiro_contracheque
 drawable forma_oval
+drawable forma_oval_novo
 drawable fundo_contracheque
 drawable fundo_solitacoes
 drawable hospital
@@ -80,6 +82,8 @@ id view12
 id view13
 id view14
 id view15
+id view16
+id view17
 id view2
 id view21
 id view22
@@ -115,6 +119,7 @@ string logo_sou
 string meus_contracheques
 string moradia
 string nome_cargo
+string novo
 string perfil
 string resumo_contracheque
 string saude_suplementar

@@ -30,6 +30,7 @@
     <string name="consulta_contracheque">Consulta\nContracheque</string>
     <string name="declaracoes_automaticas">Declarações\nAutomáticas</string>
     <string name="simulador_aposetadoria">Simulador de\nAposentadoria</string>
+    <string name="novo">novo</string>
 
     <string name="solicitacoes">Solicitações</string>
     <string name="descricao_solicitacoes">Envie requerimentos para sua Unidade Gestora.</string>

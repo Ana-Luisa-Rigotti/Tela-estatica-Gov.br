@@ -16,17 +16,19 @@
 
 
     <!--Barra superior-->
-    <View
-        android:id="@+id/view"
-        android:layout_width="0dp"
-        android:layout_height="70dp"
-        android:background="@color/cor_barra_topo"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:background="@color/cor_barra_topo"
+            app:layout_constraintBottom_toTopOf="@id/view4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
 
-    </View>
+        </View>
 
     <ImageView
         android:id="@+id/imageButton"
@@ -725,8 +727,67 @@
 
         </TextView>
 
+        <!--Aviso de 'novo'-->
+        <View
+            android:id="@+id/view16"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+
+            android:background="@drawable/forma_oval_novo"
+            app:layout_constraintEnd_toEndOf="@+id/view6"
+            app:layout_constraintTop_toTopOf="@+id/view6">
+
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/novo"
+            android:textColor="@color/linha_azul"
+            android:textSize="12sp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintVertical_bias="0.25"
+
+            app:layout_constraintBottom_toBottomOf="@+id/view16"
+            app:layout_constraintEnd_toEndOf="@+id/view16"
+            app:layout_constraintStart_toStartOf="@+id/view16"
+            app:layout_constraintTop_toTopOf="@+id/view16">
+
+        </TextView>
+
         <!--Setas-->
         <!--Esquerda-->
+        <View
+            android:id="@+id/view17"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+
+            android:background="@drawable/forma_oval_novo"
+            app:layout_constraintEnd_toEndOf="@id/view7"
+            app:layout_constraintTop_toTopOf="@+id/view7">
+
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/novo"
+            android:textColor="@color/linha_azul"
+            android:textSize="12sp"
+            app:flow_horizontalBias="0.5"
+            app:layout_constraintVertical_bias="0.25"
+
+            app:layout_constraintBottom_toBottomOf="@+id/view17"
+            app:layout_constraintEnd_toEndOf="@+id/view17"
+            app:layout_constraintStart_toStartOf="@+id/view17"
+            app:layout_constraintTop_toTopOf="@+id/view17">
+
+        </TextView>
+
         <View
             android:id="@+id/view8"
             android:layout_width="40dp"
@@ -801,6 +862,7 @@
             android:layout_marginTop="16dp"
             android:text="@string/solicitacoes"
             android:textSize="14sp"
+            android:textColor="@color/cor_padrao_textos"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/view5">

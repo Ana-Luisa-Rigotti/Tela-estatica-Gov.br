@@ -14,5 +14,7 @@
     <color name="cor_fundos">#F5F5F5</color>
     <color name="seta_contracheque">#002D64</color>
 
+    <color name="novo">#FFC800</color>
+
     <color name="cor_incio">#1E3264</color>
 </resources>
